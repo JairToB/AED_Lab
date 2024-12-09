@@ -20,5 +20,8 @@ int isRootBlack(RBTree *t);
 void rbInsert(RBTree *t, RBNode* z);
 
 void leftRotate(RBTree *t, RBNode* x);
+
 void rightRotate(RBTree *t, RBNode* y);
+
+void rbInsertFixUp(RBTree *t, RBNode* z);
 #endif
